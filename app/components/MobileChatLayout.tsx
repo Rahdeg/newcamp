@@ -60,39 +60,39 @@ const MobileChatLayout: FC<MobileChatLayoutProps> = ({ }) => {
                       </div>
                       <nav className='flex flex-1 flex-col mt-4'>
     <ul role='list' className='flex flex-1 flex-col gap-y-7'>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard'>
       <IconText icon={Icons.Dashboard} text='Dashboard' bg='bg'/>
       </Link>
     </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/settings'>
       <IconText icon={Icons.settings} text='Settings' bg='bg' />
       </Link>
       </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/activities'>
       <IconText icon={Icons.Activities} text='Activities' bg='bg' />
       </Link>
       </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/users'>
       <IconText icon={Icons.User} text='Users' bg='bg' />
       </Link>
       </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/addUsers'>
       <IconText icon={Icons.AddUser} text='Added user' bg='bg' />
       </Link>
       
       </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/affiliates'>
       <IconText icon={Icons.Affiliate} text='Affiliate' bg='bg' />
       </Link>
       </li>
     <li className=' border-b-2 mt-2'/>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/profile'>
       <Button  className='  md:hidden'>
       ADD MEMBERS
@@ -100,17 +100,17 @@ const MobileChatLayout: FC<MobileChatLayoutProps> = ({ }) => {
       </Link>
       </li>
     
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/profile'>
       <IconText icon={Icons.Logo} text='Profile'  />
       </Link>
       </li>
-    <li className='mx-4'>
+    <li className='mx-4' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard'>
       <IconText icon={Icons.User} text='Logout' />
       </Link>
       </li>
-    <li className='-mx-6 mt-auto flex items-center justify-center'>
+    <li className='-mx-6 mt-auto flex items-center justify-center' onClick={() => useMobileView.onClose()}>
       <Link href='/dashboard/newproject'>
       <Button size='lg' className=' m-5 items-center justify-center gap-2  bg-[#703EFE]'>
         {Icons.Plus}

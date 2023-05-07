@@ -18,8 +18,8 @@ const Mobile: FC<MobileProps> = ({  }) => {
   return (
     <div className='flex flex-row justify-between fixed w-full z-10 lg:hidden p-2 border-b-[1px] bg-white '>
 <div className='flex flex-col'>
-    <h1 className=' text-3xl font-bold xl:text-4xl xxl:text-5xl'>New Campaign Run</h1>
-<p className=' text-[#B8B9BD] leading-4 mt-1 xxl:text-base'>A new campaign launch work for</p>
+    <h1 className=' text-base font-bold '>New Campaign Run</h1>
+<p className=' text-[#B8B9BD] mt-1  text-xs'>A new campaign launch work ....</p>
     </div>
     <div onClick={()=>useMobileView.onOpen()}
 className='p-4 md:py-1 md:px-2 border-[1px] border-neutral-200 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition'>

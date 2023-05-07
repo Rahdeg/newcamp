@@ -26,7 +26,7 @@ const Header: FC<HeaderProps> = ({  }) => {
 
 <p className=' text-[#B8B9BD] text-sm'>8 members</p>
 </div>
-<div className='flex items-center justify-center gap-3 lg:gap-12 overflow-x-auto'>
+<div className='flex items-center justify-center gap-3 md:gap-8 lg:gap-10 overflow-x-auto'>
 <IconText icon={Icons.Newuser} text='Participants View'/>
 <IconText icon={Icons.Eleven} text='Board View'/>
 <IconText icon={Icons.Align} text='List View'/>
