@@ -6,7 +6,7 @@ interface pageProps {
 
 const page: FC<pageProps> = ({  }) => {
   return (
-    <div>
+    <div className="flex min-h-screen items-center justify-center p-24">
      page
     </div>
   )
